@@ -14,7 +14,6 @@ public class DayOfWeekMain {
             tmp += key.getHours();
             if(day == key) break;
         }
-        String remained = tmp + "";
-        return remained;
+        return tmp + "";
  }
 }
