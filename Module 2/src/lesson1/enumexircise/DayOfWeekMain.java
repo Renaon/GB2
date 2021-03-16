@@ -12,6 +12,7 @@ public class DayOfWeekMain {
         if(day == DayOfWeek.SUNDAY || day == DayOfWeek.SATURDAY) return "Выходной";
         for(DayOfWeek key: DayOfWeek.values()){
             tmp += key.getHours();
+            if(day == key) break;
         }
         String remained = tmp + "";
         return remained;
