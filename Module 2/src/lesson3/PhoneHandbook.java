@@ -9,12 +9,6 @@ public class PhoneHandbook {
         this.phones.put(number, surname);
     }
 
-    public void showOnce(){
-        for(Map.Entry<Long, String> pair : this.phones.entrySet()){
-            System.out.println(pair.getKey() + " " + pair.getValue());
-        }
-    }
-
     public void get(String surname){
         ArrayList<Long> lucky = new ArrayList<>();
         for(Map.Entry<Long, String> pair : this.phones.entrySet()){

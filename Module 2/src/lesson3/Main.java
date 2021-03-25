@@ -18,7 +18,6 @@ public class Main {
         note.add("Williams", 698765165L);
         note.add("Gabe", 782463198L);
         note.add("Chair", 9134975216L);
-        note.showOnce();
         note.get("Jameson");
     }
 
